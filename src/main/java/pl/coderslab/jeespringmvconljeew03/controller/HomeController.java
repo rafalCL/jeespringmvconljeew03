@@ -9,6 +9,7 @@ public class HomeController {
     @GetMapping("")
     @ResponseBody
     public String home() {
-        return "<h1>welcome home! ęąćłńź</h1>";
+        return "<h1>welcome home!</h1>" +
+                "ąęćłńóżź";
     }
 }
