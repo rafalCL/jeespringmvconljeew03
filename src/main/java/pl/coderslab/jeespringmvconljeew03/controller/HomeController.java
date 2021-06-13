@@ -10,6 +10,6 @@ public class HomeController {
     @ResponseBody
     public String home() {
         return "<h1>welcome home!</h1>" +
-                "ąęćłńóżź";
+                "ąęćłń";
     }
 }
