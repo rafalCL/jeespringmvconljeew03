@@ -11,4 +11,9 @@ public class HelloController {
     public String hello() {
         return "<h1>Hello World</h1>";
     }
+
+    @GetMapping("/helloView")
+    public String helloView() {
+        return "helloView";
+    }
 }
