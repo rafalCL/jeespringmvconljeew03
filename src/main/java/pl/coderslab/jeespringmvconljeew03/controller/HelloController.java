@@ -5,10 +5,10 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 
 @Controller
-public class HomeController {
-    @GetMapping("")
+public class HelloController {
+    @GetMapping("/hello")
     @ResponseBody
-    public String home() {
-        return "<h1>welcome home! ęąćłńź</h1>";
+    public String hello() {
+        return "<h1>Hello World</h1>";
     }
 }
